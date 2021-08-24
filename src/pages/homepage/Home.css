@@ -1,0 +1,22 @@
+.main__container{
+    width: 94%;
+    height: auto;
+    margin: auto;
+    position: relative;
+    /* z-index: -1; */
+}
+
+.mainContainerNotActive{
+    filter: blur(20px);
+}
+
+.popup{
+    width: 350px;
+    height: 400px;
+    position: fixed;
+    top: calc(50vh - 200px);
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 40;
+    background-color: #fff;
+}

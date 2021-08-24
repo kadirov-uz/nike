@@ -1,0 +1,34 @@
+.carousel{
+    width: 100%;
+    height: 90vh;
+    overflow: auto;
+    margin-bottom: 400px;
+}
+
+.carousel__wrapper{
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    overflow-x: auto;
+}
+
+.carousel__wrapper::-webkit-scrollbar-thumb{
+    height: 5px;
+    background-color: gray;
+    border-radius: 10px;
+}
+
+
+.carousel__wrapper::-webkit-scrollbar{
+    height: 5px;
+    background-color: transparent;
+}
+
+.carousel__item{
+    width: 400px;
+    height: 400px;
+    position: relative;
+    margin-right: 100px;
+}
+

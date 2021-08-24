@@ -1,0 +1,34 @@
+.men__header{
+    width: 100%;
+    margin: auto;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: 15px;
+}
+
+.menHeader__logo{
+    
+    font-size: 25px;
+    font-weight: 450;
+}
+
+.menHeader__collection{
+    margin-left: 330px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 17.5px;
+    font-weight: 450;
+    
+}
+
+
+.menHeader__item{
+    list-style-type: none;
+    padding-left: 30px;
+}
+
+.menHeader__item:hover{
+    color: #727070;
+}
